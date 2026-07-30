@@ -1,6 +1,6 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
-  URL git@github.com:carbonengine/destiny.git
+  URL https://github.com/carbonengine/destiny.git
   REF 5d7b818ee3c91f6a5b752189dba1cc86bf148de0
   HEAD_REF main
 )

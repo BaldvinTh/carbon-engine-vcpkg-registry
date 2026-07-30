@@ -1,6 +1,6 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
-  URL git@github.com:carbonengine/imagetools.git
+  URL https://github.com/carbonengine/imagetools.git
   REF 6b9b1281014bb95c35c2b8ff37f67ed8c0d3f6f1
   HEAD_REF main
 )

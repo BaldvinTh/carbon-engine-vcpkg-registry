@@ -1,6 +1,6 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
-  URL git@github.com:carbonengine/videoplayer.git
+  URL https://github.com/carbonengine/videoplayer.git
   REF 2c4ac902d1474238097e70ab5c6e7f4bf7bc6755
   HEAD_REF main
 )

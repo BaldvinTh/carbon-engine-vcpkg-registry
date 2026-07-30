@@ -1,6 +1,6 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
-  URL git@github.com:carbonengine/math.git
+  URL https://github.com/carbonengine/math.git
   REF 50f7c65241b9e22514fdd0a7a159e86322e4d53e
   HEAD_REF main
 )

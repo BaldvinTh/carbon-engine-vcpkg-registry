@@ -1,6 +1,6 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
-  URL git@github.com:carbonengine/pathfinder.git
+  URL https://github.com/carbonengine/pathfinder.git
   REF 00f40154719a0705e673404d84ffc52e78a478d1
   HEAD_REF main
 )
