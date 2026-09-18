@@ -7,28 +7,12 @@
   "supports": "(windows & x64) | osx",
   "dependencies": [
     {
-      "name": "carbon-blue",
-      "version>=": "6.2.0"
-    },
-    {
-      "name": "carbon-trinity",
-      "platform": "windows & x64",
-      "version>=": "7.0.0#1",
-      "features":["shader-compiler", "dx11", "dx12", "with-granny"]
-    },
-    {
-      "name": "carbon-trinity",
-      "platform": "osx",
-      "version>=": "7.0.0#1",
-      "features":["shader-compiler", "metal", "with-granny"]
-    },
-    {
-      "name": "carbon-videoplayer",
-      "version>=": "2.0.3"
-    },
-    {
       "name": "carbon-audio",
       "version>=": "9.0.0"
+    },
+    {
+      "name": "carbon-blue",
+      "version>=": "6.2.0"
     },
     {
       "name": "carbon-blueexposure",
@@ -100,15 +84,20 @@
     },
     {
       "name": "carbon-mesh",
-      "version>=": "1.1.0",
-      "platform": "windows & x64",
-      "features":["simplygon", "tools"]
+      "features": [
+        "tools"
+      ],
+      "platform": "osx",
+      "version>=": "1.1.0"
     },
     {
       "name": "carbon-mesh",
-      "version>=": "1.1.0",
-      "platform": "osx",
-      "features":["tools"]
+      "features": [
+        "simplygon",
+        "tools"
+      ],
+      "platform": "windows & x64",
+      "version>=": "1.1.0"
     },
     {
       "name": "carbon-parser",
@@ -139,7 +128,32 @@
       "version>=": "3.0.1"
     },
     {
+      "name": "carbon-trinity",
+      "features": [
+        "metal",
+        "shader-compiler",
+        "with-granny"
+      ],
+      "platform": "osx",
+      "version>=": "7.0.0#1"
+    },
+    {
+      "name": "carbon-trinity",
+      "features": [
+        "dx11",
+        "dx12",
+        "shader-compiler",
+        "with-granny"
+      ],
+      "platform": "windows & x64",
+      "version>=": "7.0.0#1"
+    },
+    {
       "name": "carbon-trinityaudioapi",
+      "version>=": "2.0.3"
+    },
+    {
+      "name": "carbon-videoplayer",
       "version>=": "2.0.3"
     }
   ]
