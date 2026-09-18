@@ -1,6 +1,7 @@
 {
   "name": "carbon",
   "version": "1.3.0",
+  "port-version": 1,
   "description": "Fenris Creations' CARBON development platform.",
   "homepage": "https://www.fenris.com/carbon",
   "license": "MIT",
@@ -85,18 +86,12 @@
     {
       "name": "carbon-mesh",
       "features": [
-        "tools"
+        "tools",
+        {
+          "name": "simplygon",
+          "platform": "windows & x64"
+        }
       ],
-      "platform": "osx",
-      "version>=": "1.1.0"
-    },
-    {
-      "name": "carbon-mesh",
-      "features": [
-        "simplygon",
-        "tools"
-      ],
-      "platform": "windows & x64",
       "version>=": "1.1.0"
     },
     {
@@ -130,22 +125,21 @@
     {
       "name": "carbon-trinity",
       "features": [
-        "metal",
+        {
+          "name": "metal",
+          "platform": "osx"
+        },
+        {
+          "name": "dx11",
+          "platform": "windows & x64"
+        },
+        {
+          "name": "dx12",
+          "platform": "windows & x64"
+        },
         "shader-compiler",
         "with-granny"
       ],
-      "platform": "osx",
-      "version>=": "7.0.0#1"
-    },
-    {
-      "name": "carbon-trinity",
-      "features": [
-        "dx11",
-        "dx12",
-        "shader-compiler",
-        "with-granny"
-      ],
-      "platform": "windows & x64",
       "version>=": "7.0.0#1"
     },
     {
