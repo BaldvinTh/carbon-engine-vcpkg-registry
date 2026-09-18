@@ -240,6 +240,10 @@
       "baseline": "2.2",
       "port-version": 0
     },
+    "simplygon": {
+      "baseline": "10.4.338",
+      "port-version": 0
+    },
     "tracy": {
       "baseline": "0.13.1",
       "port-version": 1
