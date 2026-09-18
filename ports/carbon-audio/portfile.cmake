@@ -1,7 +1,7 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
   URL git@github.com:carbonengine/audio.git
-  REF dfa86c9b96a702b8249ca02485bcf321bfbddeef
+  REF 8eac99b26dd3c59b4570fdee402c4d3602798a7e
   HEAD_REF main
 )
 

@@ -1,11 +1,11 @@
 {
   "name": "carbon-audio",
-  "version": "8.1.1",
+  "version": "9.0.0",
   "description": "Carbon engine's audio intergration component",
   "dependencies": [
     {
       "name": "carbon-blue",
-      "version>=": "5.1.2"
+      "version>=": "6.2.0"
     },
     {
       "name": "carbon-exefile",
