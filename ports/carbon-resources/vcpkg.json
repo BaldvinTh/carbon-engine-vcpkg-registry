@@ -1,7 +1,7 @@
 {
   "name": "carbon-resources",
   "version": "4.7.0",
-  "port-version": 1,
+  "port-version": 2,
   "homepage": "https://github.com/carbonengine/resources",
   "license": "MIT",
   "dependencies": [
