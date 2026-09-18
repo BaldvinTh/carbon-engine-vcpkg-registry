@@ -86,11 +86,11 @@
     {
       "name": "carbon-mesh",
       "features": [
-        "tools",
         {
           "name": "simplygon",
           "platform": "windows & x64"
-        }
+        },
+        "tools"
       ],
       "version>=": "1.1.0"
     },
@@ -126,16 +126,16 @@
       "name": "carbon-trinity",
       "features": [
         {
-          "name": "metal",
-          "platform": "osx"
-        },
-        {
           "name": "dx11",
           "platform": "windows & x64"
         },
         {
           "name": "dx12",
           "platform": "windows & x64"
+        },
+        {
+          "name": "metal",
+          "platform": "osx"
         },
         "shader-compiler",
         "with-granny"
