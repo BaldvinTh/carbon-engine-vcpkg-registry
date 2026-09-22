@@ -1,7 +1,7 @@
 vcpkg_from_git(
         OUT_SOURCE_PATH SOURCE_PATH
         URL https://github.com/CCPCookies/resourcesPublic.git
-        REF 51c3d488d72476ef02db4c4f234383ba119aaf23
+        REF 9391977b232e98c46df7ce1470c44356e44539fc
         HEAD_REF main
 )
 
