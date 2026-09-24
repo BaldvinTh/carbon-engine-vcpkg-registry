@@ -137,7 +137,7 @@
       "port-version": 1
     },
     "carbon-resources": {
-      "baseline": "5.0.0",
+      "baseline": "6.0.0-rc1",
       "port-version": 0
     },
     "carbon-scheduler": {
