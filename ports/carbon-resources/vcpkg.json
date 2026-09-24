@@ -1,6 +1,6 @@
 {
   "name": "carbon-resources",
-  "version": "5.0.0",
+  "version": "6.0.0-rc1",
   "homepage": "https://github.com/carbonengine/resources",
   "license": "MIT",
   "dependencies": [
